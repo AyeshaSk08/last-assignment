@@ -1,0 +1,30 @@
+ 
+        /* Only CSS for Owl Carousel dots */
+        .owl-dots {
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .owl-dot {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            margin: 0 5px;
+            background: #d1d5db;
+            border-radius: 50%;
+            border: none;
+            outline: none;
+            cursor: pointer;
+        }
+        
+        .owl-dot.active {
+            background: #06b6d4;
+        }
+        
+        /* Hide dots on larger screens when showing all items */
+        @media (min-width: 992px) {
+            .owl-dots {
+                display: none !important;
+            }
+        }
+    
